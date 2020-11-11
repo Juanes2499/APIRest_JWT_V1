@@ -9,6 +9,7 @@ Pasos:
 4. Ejecutar el siguiente código en MySql:
   ```
   CREATE DATABASE test;
+  USE test;
   DROP TABLE IF EXISTS `registration_user`;
   CREATE TABLE IF NOT EXISTS `registration_user` (
     `nombre` varchar(50) NOT NULL,
